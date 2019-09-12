@@ -14,7 +14,7 @@ export class MeekotBackground{
        // ul.classList.add('users-list');
         let figures = new Figures;
         let square1 = figures.createSquare(1);
-        square1.style.position = "absolute"; 
+        square1.style.position = "absolute";
         let body = document.body;
         body.appendChild(square1); 
         

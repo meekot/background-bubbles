@@ -1,0 +1,18 @@
+// plugin level css
+html{overflow: hidden;}
+.muve{
+    transition: top 5s cubic-bezier(0, 0, 1, 1);
+    animation: rotate 1s linear infinite;
+    transition-delay: 1000s;
+}
+.users-list{
+    width: 400px;
+    min-height: 200px;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 15px 30px;
+    list-style-type: none;
+    >li{
+        line-height: 30px;
+    }
+}
